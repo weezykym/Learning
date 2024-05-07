@@ -1,0 +1,19 @@
+import React from "react"
+import ReactDOM from "react-dom/client"
+
+function ProgressIng(){
+    return(
+    <div font = "Times New Roman">
+        <img src = "./react-logo.png"width= "40px"/>
+        <h1>This is why I'm learning React</h1>
+        <ol>
+            <li>I'd like to be a tech professional</li>
+            <li>I see myself creating lots of awesome projects with React</li>
+            <li>I'm looking to get a lot of money being a developer</li>
+        </ol>
+    </div>
+    )
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"))
+root.render(<ProgressIng/>)
