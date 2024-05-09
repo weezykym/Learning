@@ -1,0 +1,37 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 60px;
+}
+
+.buttons {
+    list-style: none;
+    display: flex;
+}
+
+.buttons > li {
+    padding: 10px;
+    text-decoration: underline;
+}
+.text_style{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.6;
+    flex: 1 0 auto;
+}
+h1{
+    font-family: 'Montserrat'
+}
+
+.footer_style{
+    justify-content: space-around;
+    background-color: skyblue;
+    text-align: center;
+    margin: 10px 10px 10px;
+    border-block-end-style: ridge; 
+}
