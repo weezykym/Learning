@@ -1,0 +1,33 @@
+HTML input types that you can use in React forms include:
+
+text - For general text input
+password - For password fields (masks input)
+email - For email addresses
+number - For numerical input
+checkbox - For binary choices
+radio - For selecting one option from a group
+file - For file uploads
+submit - For submission buttons
+reset - For resetting the form
+button - For clickable buttons
+date - For date selection
+time - For time selection
+datetime-local - For date and time
+month - For month selection
+week - For week selection
+color - For color selection
+range - For slider inputs
+search - For search fields
+tel - For telephone numbers
+url - For web addresses
+hidden - For data that shouldn't be visible
+
+In React, you can use these by setting the 'type' attribute in an <input> element
+
+You also have additional form elements like:
+
+<textarea> - For multi-line text input
+<select> and <option> - For dropdown selections
+<datalist> - For providing autocomplete suggestions
+
+All of these can be controlled in React using state variables and event handlers like onChange.
